@@ -30,6 +30,8 @@ plugins/ios.json
 www/
 $RECYCLE.BIN/
 
+!www/build/assets/imgs/test.png
+
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
