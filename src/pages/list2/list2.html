@@ -12,10 +12,10 @@
       <ion-refresher-content></ion-refresher-content>
   </ion-refresher>
   
-  <ion-list>
+  <ion-list [virtualScroll]="newlistDTFB">
 
-  <ion-item *ngFor="let tournament of newlistDTFB">
-      <ion-thumbnail item-left>  
+  <ion-item  *virtualItem="let tournament">
+      <ion-thumbnail item-left>
           <ion-img src="assets/imgs/test.png"></ion-img>
       </ion-thumbnail>
       <h2>{{ tournament.name }}</h2>
